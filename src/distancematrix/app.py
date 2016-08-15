@@ -48,7 +48,7 @@ LON = 'longitude'
 
 # API components. DO NOT EDIT ANYTHING HERE
 GEOCODE_BASE_URL = "https://maps.googleapis.com/maps/api/distancematrix/json"
-API_KEY = "AIzaSyDN9ZHDQYIgK9Ofe5qaP9zFGv9D88663Qk"
+API_KEY = 
 
 # Constants. DO NOT EDIT ANYTHING HERE
 TRAFFIC_MODEL = 'pessimistic'  # Options are 'pessimistic', 'optimistic', and 'best_guess
