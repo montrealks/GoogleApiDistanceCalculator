@@ -3,16 +3,16 @@ Micro-app that uses the Google Distance Matrix API to return the distance and th
 as many as 2500 destinations.
 
 ### HOW TO USE
-
-Use the config files directly below.
+Use the config settings located in
+```
+./src/distancematrix/app.py
+```
 1. Set the path to the CSV file containing the data to be analyzed. Must have a trailing forwardslash '/'
 2. Set the origin address. Can be a string or latitude longitude with a comma separating and no spaces
 3. Set the departure time using http://www.epochconverter.com/
-3. Ensure that the CSV has ALL of the mandatory headers (below)
-
+3. Ensure that the CSV has ALL of the mandatory headers
 
 ### NOTES
-
 * The Goole Distancematrix API returns two instances of trip duration. The first assumes light traffic, the second will
 use historical traffic data for the time entered as DEPARTURE_TIME to determine the amount of traffic for that time and
 thus the trip duration. It is therefore best to input a heavy traffic period so to have the greatest contrast in travel
