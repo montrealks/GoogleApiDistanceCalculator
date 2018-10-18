@@ -12,7 +12,7 @@ Micro-app that uses the Google Distance Matrix API to return the distance and th
 as many as 2500 destinations.
 """
 
-# HOT TO USE
+# HOW TO USE
 """
 Use the config files directly below.
 1.) Set the path to the CSV file containing the data to be analyzed. Must have a trailing forwardslash '/'
